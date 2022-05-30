@@ -1,0 +1,10 @@
+[package]
+name = "onetracker"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+author = ["Lucy <lucy@absolucy.moe>"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+time = { version = "0.3", features = ["serde"] }
